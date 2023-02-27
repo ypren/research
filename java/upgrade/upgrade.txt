@@ -15,3 +15,7 @@
 7）集合方法
 8）支持TLS1.3
 9）Java11引入ZGC，可伸缩，低延时的垃圾收集器，GC停顿时间不超过10ms
+10)
+Java14中，彻底删除CMS垃圾回收器。在MacOS和Windows下支持ZGC，默认采用G1垃圾回收器。
+11)
+自Java15开始，可以通过设置在OpenJDK中使用Shenandoah垃圾回收器，在Oracle中使用ZGC垃圾回收器。
