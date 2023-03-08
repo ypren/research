@@ -23,7 +23,23 @@ org.apache.commons:commons-dbcp2      2.2.0   --->   2.9.0
     <version>1.1.0.Final</version>    --->      jakarta.validation-api 3.0.2 ???
 </dependency>
 
-com.rabbitmq:amqp-client               4.0.3   --->   5.16.0
+com.rabbitmq:amqp-client               4.0.3    --->     5.16.0
+
+<dependency>
+    <groupId>org.jdom</groupId>
+    <artifactId>jdom2</artifactId>
+    <version>2.0.6</version>           2.0.6    ---->    2.0.6.1
+</dependency>
+<dependency>
+    <groupId>redis.clients</groupId>
+    <artifactId>jedis</artifactId>
+    <version>2.4.1</version>           2.4.1    ---->    4.3.1
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.datatype</groupId>
+    <artifactId>jackson-datatype-jsr310</artifactId>
+    <version>2.8.10</version>          2.8.10   ---->    2.14.2
+</dependency>
 
 Third party dependency:
 org.elasticsearch:elasticsearch  6.1.1 -> ???
@@ -72,6 +88,103 @@ org.json:json  20160212 -> ???
     <artifactId>spock-core</artifactId>
     <version>1.1-groovy-2.4-rc-2</version>        ---->   ???
 </dependency>
+<dependency>
+    <groupId>org.spockframework</groupId>
+    <artifactId>spock-spring</artifactId>
+    <version>1.1-groovy-2.4-rc-3</version>        ---->    ???
+</dependency>
+<dependency>
+    <groupId>de.micromata.jak</groupId>
+    <artifactId>JavaAPIforKml</artifactId>
+    <version>2.2.0</version>                      ---->    ???
+</dependency>
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4.7</version>                      ---->    ???
+</dependency>
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+    <version>1.9.13</version>                     ---->    ???
+</dependency>
+<dependency>
+    <groupId>org.apache.ant</groupId>
+    <artifactId>ant</artifactId>
+    <version>1.9.7</version>                      ---->    ???
+</dependency>
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>transmittable-thread-local</artifactId>
+    <version>2.2.0</version>                      ---->    ???
+</dependency>
+<dependency>
+    <groupId>io.zipkin.java</groupId>
+    <artifactId>zipkin-autoconfigure-collector-rabbitmq</artifactId>
+    <version>2.3.1</version>                      ---->    ???
+</dependency>
+<dependency>
+    <groupId>io.zipkin.java</groupId>
+    <artifactId>zipkin-autoconfigure-storage-elasticsearch-http</artifactId>
+    <version>2.4.0</version>                      ---->    ???
+    <optional>true</optional>
+</dependency>
+<dependency>
+    <groupId>org.redisson</groupId>
+    <artifactId>redisson</artifactId>
+    <version>2.10.7</version>                     ---->    ???
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-hdfs</artifactId>
+    <version>2.2.0</version>                      ---->    ???
+</dependency>
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-client</artifactId>
+    <version>2.2.0</version>
+</dependency>
+
+hadoop-common
+hadoop-auth
+
+<dependency>
+    <groupId>org.apache.hbase</groupId>
+    <artifactId>hbase-client</artifactId>
+    <version>0.98.9-hadoop2</version>          ---------> ?
+<dependency>
+hbase-common
+hbase-protocol
+hbase-server
+hbase-prefix-tree
+
+<dependency>
+    <groupId>org.cloudera.htrace</groupId>
+    <artifactId>htrace-core</artifactId>
+    <version>2.04</version>                    ---------> ?
+</dependency>
+<dependency>
+    <groupId>org.apache.curator</groupId>
+    <artifactId>curator-framework</artifactId>
+    <version>2.12.0</version>                  ---------> ?  
+</dependency>
+curator-client
+curator-recipes
+
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.8.0</version>                   ---------> ?  
+</dependency>
+springfox-swagger2
+springfox-bean-validators
+
+<dependency>
+    <groupId>io.micrometer</groupId>
+    <artifactId>micrometer-spring-legacy</artifactId>
+    <version>1.1.4</version>                   ---------> ?  
+</dependency>
+micrometer-registry-prometheus
 
 Scope test:
 <dependency>
