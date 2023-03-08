@@ -6,13 +6,24 @@ Java:  1.8 -> 17
 Spring Boot provided dependency:
 org.apache.logging.log4j:log4j-api  2.8.2 -> 2.19.0
 org.apache.logging.log4j:log4j-core  2.8.2 -> 2.19.0
+
 commons-codec:commons-codec  1.10 -> 1.15 
+The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. 
+     
 org.apache.commons:commons-lang3  3.3.2 -> 3.12.0
+Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.
+class such as StringUtils
+
 com.fasterxml.jackson.core:jackson-databind  2.8.3 -> 2.14.2
+Jackson has been known as "the Java JSON library" or "the best JSON parser for Java". Or simply as "JSON for Java".
+
 org.apache.httpcomponents:httpclient  4.5.2 -> 4.5.14
 org.apache.httpcomponents:httpasyncclient  4.0.2 -> 4.1.5
+Although the java.net package provides basic functionality for accessing resources via HTTP, it doesn't provide the full flexibility or functionality needed by many applications. HttpClient seeks to fill this void by providing an efficient, up-to-date, and feature-rich package implementing the client side of the most recent HTTP standards and recommendations.
+
 org.xerial:sqlite-jdbc  3.8.11.2 -> 3.39.4.1
-spring-boot-starter-test  1.5.10 --> 3.0.3
+SQLite JDBC is a library for accessing and creating SQLite database files in Java.
+
 com.github.ben-manes.caffeine:caffeine  2.6.0 ---> 3.1.4
 org.apache.commons:commons-dbcp2      2.2.0   --->   2.9.0
 
@@ -187,6 +198,7 @@ springfox-bean-validators
 micrometer-registry-prometheus
 
 Scope test:
+spring-boot-starter-test  1.5.10 --> 3.0.3
 <dependency>
     <groupId>org.powermock</groupId>
     <artifactId>powermock-module-junit4</artifactId>
