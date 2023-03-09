@@ -25,32 +25,41 @@ org.xerial:sqlite-jdbc  3.8.11.2 -> 3.39.4.1
 SQLite JDBC is a library for accessing and creating SQLite database files in Java.
 
 com.github.ben-manes.caffeine:caffeine  2.6.0 ---> 3.1.4
-org.apache.commons:commons-dbcp2      2.2.0   --->   2.9.0
+Caffeine is a high performance, near optimal caching library. 
 
+org.apache.commons:commons-dbcp2      2.2.0   --->   2.9.0
+Apache Commons DBCP software implements Database Connection Pooling
 
 <dependency>
     <groupId>javax.validation</groupId>
     <artifactId>validation-api</artifactId>
-    <version>1.1.0.Final</version>    --->      jakarta.validation-api 3.0.2 ???
+    <version>1.1.0.Final</version>    --->      jakarta.validation-api 3.0.2 
 </dependency>
+Bean Validation
 
 com.rabbitmq:amqp-client               4.0.3    --->     5.16.0
+The RabbitMQ Java client library allows Java applications to interface with RabbitMQ.
 
 <dependency>
     <groupId>org.jdom</groupId>
     <artifactId>jdom2</artifactId>
     <version>2.0.6</version>           2.0.6    ---->    2.0.6.1
 </dependency>
+To provide a complete, Java-based solution for accessing, manipulating, and outputting XML data from Java code. 
+
 <dependency>
     <groupId>redis.clients</groupId>
     <artifactId>jedis</artifactId>
     <version>2.4.1</version>           2.4.1    ---->    4.3.1
 </dependency>
+Jedis is a Java client for Redis designed for performance and ease of use.
+
 <dependency>
     <groupId>com.fasterxml.jackson.datatype</groupId>
     <artifactId>jackson-datatype-jsr310</artifactId>
     <version>2.8.10</version>          2.8.10   ---->    2.14.2
 </dependency>
+Add-on module to support JSR-310 (Java 8 Date &amp; Time API) data types.
 
 Third party dependency:
 org.elasticsearch:elasticsearch  6.1.1 -> ???
