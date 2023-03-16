@@ -1,0 +1,35 @@
+Spring Boot 2.0
+Spring Boot 2.0 requires Java 8 as a minimum version. Many existing APIs have been updated to take advantage of Java 8 features such as: 
+default methods on interfaces, functional callbacks, and new APIs such as javax.time.
+Spring Boot 2.0 also works well, and has been tested with JDK 9. All our jars ship with automatic module name entries in the manifests for module system compatibility.
+
+Spring Boot 2.0 builds on and requires Spring Framework 5.
+
+Some notable dependency upgrades in this release include:
+
+Tomcat 8.5
+
+Flyway 5
+
+Hibernate 5.2
+
+Thymeleaf 3
+
+***********Import*************
+
+Reactive Spring
+Spring Boot 2.0 fully supports reactive applications via auto-configuration and starter-POMs. 
+The internals of Spring Boot itself have also been updated where necessary to offer reactive alernatives (the most noticeable being our embedded server support).
+
+HTTP/2 Support
+
+Configuration Property Binding
+
+Actuator Improvements
+
+HikariCP
+The default database pooling technology in Spring Boot 2.0 has been switched from Tomcat Pool to HikariCP. 
+We’ve found that Hakari offers superior performance, and many of our users prefer it over Tomcat Pool.
+
+JSON Support
+A new spring-boot-starter-json starter gathers the necessary bits to read and write JSON.
